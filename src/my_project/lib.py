@@ -15,3 +15,7 @@ def is_prime(n: int) -> bool:
 def reverse_string(s: str) -> str:
     """Повертає рядок s у зворотному порядку."""
     return s[::-1]
+
+def square(n: int) -> int:
+    """Повертає квадрат числа n."""
+    return n * n
